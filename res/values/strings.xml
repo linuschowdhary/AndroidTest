@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">实验室</string>
+    <string name="app_name">设计模式</string>
+    <string name="SRP">单一职责原则 SRP</string>
+    <string name="LSP">里氏替换原则 LSP</string>
+    <string name="DIP">依赖倒置原则 DIP</string>
+    <string name="ISP">接口隔离原则 ISP</string>
+    <string name="LoD">迪米特法则 LoD</string>
+    <string name="OCP">开放封闭原则 OCP</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

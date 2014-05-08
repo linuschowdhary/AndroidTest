@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mty.demo.view.SwipeRefreshLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/swipe"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <TextView
+                android:id="@+id/touch_lock_view"
+                android:layout_height="wrap_content"
+                android:textSize="60sp"
+                android:text="H你好速这是收到了罚款收到甲方收到了看法就
+                是阿里打开附件送来的快放假索福克勒斯大姐夫老师的就是了看到加福禄寿爱的就是对旅客积分数量
+                多缴费老师的开发技术可多了几分克里斯多缴费乐山大佛收敛点"
+                android:layout_width="match_parent"/>
+
+    </ScrollView>
+</com.mty.demo.view.SwipeRefreshLayout>

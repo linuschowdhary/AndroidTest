@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="title">
+        <item name="android:layout_marginLeft">@dimen/common_marin_min</item>
+        <item name="android:layout_marginRight">@dimen/common_marin_min</item>
+        <item name="android:layout_marginTop">@dimen/common_marin</item>
+        <item name="android:background">@drawable/selector_border</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/common_marin</item>
+    </style>
+
+    <style name="title.second" parent="Button">
+        <item name="android:background">@drawable/selector_button</item>
+        <item name="android:textColor">@color/button_text</item>
+        <item name="android:textSize">@dimen/common_text</item>
+    </style>
+
+    <style name="Button" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/selector_button</item>
+        <item name="android:textColor">@color/button_text</item>
+        <item name="android:textSize">@dimen/common_text</item>
+        <item name="android:minHeight">@dimen/min_height</item>
+    </style>
+
+    <style name="MyTheme" parent="@android:style/Theme.Black.NoTitleBar">
+        <item name="android:buttonStyle">@style/Button</item>
+    </style>
+
+</resources>
